@@ -15,6 +15,7 @@ public class PlusMinus {
         double n = 0;
         double z = 0;
         double t = 0;
+
         /*
                 for (int i = 0; i < arr.size(); i++) {
             if (Integer.signum(arr.get(i)) == 1.0) {
