@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 
 public class Median {
 
@@ -13,7 +12,7 @@ public class Median {
         Collections.sort(test);
         System.out.println(test.size());
         System.out.println(test);
-        int median = 0;
+        int median;
         median = (test.get(test.size()/2) + test.get(test.size()/2))/2;
         System.out.println(median);
 
