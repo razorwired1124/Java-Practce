@@ -19,7 +19,7 @@ public class MiniMaxSum {
         Collections.sort(arr, Collections.reverseOrder());
         System.out.println(arr);
 */
-    public static void Result(List<Integer> arr) {
+    public static long Result(List<Integer> arr) {
         // Write your code here
         long min = 0;
         long max = 0;
@@ -37,7 +37,7 @@ public class MiniMaxSum {
         }
         System.out.print(max);
         //System.out.println(arr);
-
+        return min;
     }
 
     public static void main(String[] args) {
