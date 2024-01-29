@@ -11,11 +11,10 @@ public class TimeConversion {
          * The function accepts STRING s as parameter.
          */
 
-        public static void timeConversion() {
-            String s = "07:05:45PM";
+        public static void timeConversion(String time) {
             // Write your code here
 
-            String time = LocalTime.parse(s, DateTimeFormatter.ofPattern("hh:mm:ssa", Locale.US))
+            time = LocalTime.parse(time, DateTimeFormatter.ofPattern("hh:mm:ssa", Locale.US))
                     .format(DateTimeFormatter.ofPattern("HH:mm:ss"));
 
             System.out.println(time);
@@ -24,8 +23,8 @@ public class TimeConversion {
         }
 
     public static void main(String[] args) {
-
-        TimeConversion.timeConversion();
+        String time = "07:05:45PM";
+        TimeConversion.timeConversion(time);
     }
 
 }
