@@ -22,8 +22,8 @@ public class TimeConversion {
         }
 
     public static void main(String[] args) {
-        //String time = "07:05:45PM";
-        TimeConversion.timeConversion("07:05:45PM");
+        String time = "07:05:45PM";
+        TimeConversion.timeConversion(time);
     }
 
 }
