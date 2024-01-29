@@ -19,12 +19,11 @@ public class TimeConversion {
 
             System.out.println(time);
 
-
         }
 
     public static void main(String[] args) {
-        String time = "07:05:45PM";
-        TimeConversion.timeConversion(time);
+        //String time = "07:05:45PM";
+        TimeConversion.timeConversion("07:05:45PM");
     }
 
 }

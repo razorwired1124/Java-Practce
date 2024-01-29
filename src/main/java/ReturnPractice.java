@@ -5,19 +5,19 @@ public class ReturnPractice {
         return 5 + x;
     }
 
-    public static int twoInts(int x, int y) {
-        return x + y;
+    public static int twoInts(int y) {
+        return oneInt(5) + y;
     }
 
-    public static int threeInts(int x, int y, int z) {
-        return x + y - z;
+    public static int threeInts(int z) {
+        return oneInt(10) + twoInts(10) + z;
     }
 
     public static void main(String[] args) {
         System.out.println(oneInt(5));
 
-        System.out.print(twoInts(10, 10));
+        System.out.println(twoInts(10));
 
-        System.out.println(threeInts(15 , 15, 15));
+        System.out.println(threeInts(15));
     }
 }
