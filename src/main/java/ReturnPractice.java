@@ -1,5 +1,7 @@
 public class ReturnPractice {
 
+    protected ReturnPractice(){}
+
     // This method returns a single int
     public static int oneInt(int x) {
         return 5 + x;
@@ -14,10 +16,6 @@ public class ReturnPractice {
     }
 
     public static void main(String[] args) {
-        System.out.println(oneInt(5));
 
-        System.out.println(twoInts(10));
-
-        System.out.println(threeInts(15));
     }
 }

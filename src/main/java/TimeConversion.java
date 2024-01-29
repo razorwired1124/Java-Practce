@@ -13,7 +13,6 @@ public class TimeConversion {
 
         public static void timeConversion(String time) {
             // Write your code here
-
             time = LocalTime.parse(time, DateTimeFormatter.ofPattern("hh:mm:ssa", Locale.US))
                     .format(DateTimeFormatter.ofPattern("HH:mm:ss"));
 
